@@ -1,0 +1,448 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+J:/TurtleRescue
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54445
+Successfully changed project path to: J:/TurtleRescue
+J:/TurtleRescue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28784] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2036312526 [EditorId] 2036312526 [Version] 1048832 [Id] WindowsEditor(7,HOANHTUAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28784] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2036312526 [EditorId] 2036312526 [Version] 1048832 [Id] WindowsEditor(7,HOANHTUAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.78 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path J:/TurtleRescue/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T1000 8GB (ID=0x1ff0)
+    Vendor:   NVIDIA
+    VRAM:     8017 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006331 seconds.
+- Loaded All Assemblies, in  0.266 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 174 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.408 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (250ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.565 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 1205ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 242 unused Assets / (13.1 MB). Loaded Objects now: 8453.
+Memory consumption went from 388.8 MB to 375.7 MB.
+Total: 5.786800 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.720700 ms  DeleteObjects: 2.403000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 268981.224487 seconds.
+  path: Assets/Holli/Prefabs/mainCol.fbx
+  artifactKey: Guid(0b4f9b290dd47d24ca2a5b4e21eac7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Prefabs/mainCol.fbx using Guid(0b4f9b290dd47d24ca2a5b4e21eac7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3632c298f3a6a193a92abd7b5177f012') in 0.414429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 253
+========================================================================
+Received Import Request.
+  Time since last request: 1.604467 seconds.
+  path: Assets/Holli/Textures/FoamMask.tga
+  artifactKey: Guid(cc5bba5a6ee9d3040abad575dbaca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/FoamMask.tga using Guid(cc5bba5a6ee9d3040abad575dbaca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70651d8577d26498ac6afe512dbd60bc') in 0.022153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Textures/Ground_01_4x4_H.exr
+  artifactKey: Guid(7b76665f50fa39c4a84dd3b7bab88f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Ground_01_4x4_H.exr using Guid(7b76665f50fa39c4a84dd3b7bab88f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c113dbbee2de797f71f6dbdd2c3057') in 0.010239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Holli/Textures/LionHead_H.tga
+  artifactKey: Guid(9f45157deefb8e94ca0837c1c3df2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/LionHead_H.tga using Guid(9f45157deefb8e94ca0837c1c3df2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997b956128e05d87b6be0c95404d693') in 0.008246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Holli/Textures/Ground_01_4x4_T.tga
+  artifactKey: Guid(b2c559f71d0987d438d4dc8d795d52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Ground_01_4x4_T.tga using Guid(b2c559f71d0987d438d4dc8d795d52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4cb757d070791b5b71dec704192a9a') in 0.012423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Holli/Textures/MossDetail_01_MSK.tga
+  artifactKey: Guid(7acd236ba58a2f44591cba063021e054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/MossDetail_01_MSK.tga using Guid(7acd236ba58a2f44591cba063021e054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26e65bbf4c63f96cf0fb9724abfbbf') in 0.012441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Holli/Textures/GenericDetailMap.tga
+  artifactKey: Guid(7e85d1ee33d3cb246b652b8e8db8aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/GenericDetailMap.tga using Guid(7e85d1ee33d3cb246b652b8e8db8aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3066f218b581322383982f7ba7a069e5') in 0.010598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Textures/Rock01_N.tga
+  artifactKey: Guid(0d6f75603355cf54fbfc93d87ff80671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Rock01_N.tga using Guid(0d6f75603355cf54fbfc93d87ff80671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7246ff7221a68806bf0f968e412043') in 0.023442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Textures/Rock01_MSK.tga
+  artifactKey: Guid(06c050a7434eb094182b5f367a27efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Rock01_MSK.tga using Guid(06c050a7434eb094182b5f367a27efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95ff6d9a73e5028de9f8c51fcbf37b2') in 0.011570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Textures/Rock03_MSK.tga
+  artifactKey: Guid(d7308ac2155538140a6b8f2d22eb124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Rock03_MSK.tga using Guid(d7308ac2155538140a6b8f2d22eb124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f07d471a432bd2028ab2addaac41f3') in 0.012098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Textures/rock_05_nor_gl_2k.exr
+  artifactKey: Guid(28cc1988a2064264c81df71710ee0b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/rock_05_nor_gl_2k.exr using Guid(28cc1988a2064264c81df71710ee0b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139d4da8d1f5e508eb73c58f6acf9752') in 0.014855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Holli/Textures/Rock02_BC.tga
+  artifactKey: Guid(71e5bd38d30810040aabd870ee53a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Rock02_BC.tga using Guid(71e5bd38d30810040aabd870ee53a8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4ea3c5569e619a43728c3e1e426c6f') in 0.011462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Holli/Textures/Ground_01_4x4_N.tga
+  artifactKey: Guid(44fce7a3d591f194a95cb99319264173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Ground_01_4x4_N.tga using Guid(44fce7a3d591f194a95cb99319264173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3e1e4ac9e4678169645d9ba8ae5292') in 0.043226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Textures/FoamSurface.png
+  artifactKey: Guid(2736a8e305e8f9b41aefdf64ec13c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/FoamSurface.png using Guid(2736a8e305e8f9b41aefdf64ec13c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5bd074b217148767abb96885dc65fe') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.438052 seconds.
+  path: Assets/Holli/UI/frame.png
+  artifactKey: Guid(62cfb0b0a44b1f94ebe84e40a7be7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/UI/frame.png using Guid(62cfb0b0a44b1f94ebe84e40a7be7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db3a706b06a88da746f22e898159b26') in 0.023041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/UI/oasis_BW.png
+  artifactKey: Guid(91233d33457d80a41b565fd07452c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/UI/oasis_BW.png using Guid(91233d33457d80a41b565fd07452c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87dcf3f0d75b78f0104675f80aa61ee') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 282.770796 seconds.
+  path: Assets/Holli/Textures/Custom Textures/Deformer01.asset
+  artifactKey: Guid(922eb129b0f7d3640bc010c84a3241ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Custom Textures/Deformer01.asset using Guid(922eb129b0f7d3640bc010c84a3241ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca00fdbb1c8e57c80ef85709282eeafa') in 0.018250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003941 seconds.
+  path: Assets/Holli/Textures/Custom Textures/WaveFoam_BC.asset
+  artifactKey: Guid(e9599d18bc074fd458c4c3a6926df2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Custom Textures/WaveFoam_BC.asset using Guid(e9599d18bc074fd458c4c3a6926df2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0c691a2d490fa7c017c7bf4d6e4f7') in 0.023934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Textures/Custom Textures/Rock Foam CT.asset
+  artifactKey: Guid(a6cf2b4ad9b2fb2498f171c1947acd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Custom Textures/Rock Foam CT.asset using Guid(a6cf2b4ad9b2fb2498f171c1947acd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806b7a2f05247693ecfc6cf444b60915') in 0.015506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Holli/Textures/Custom Textures/WaveFoam_Deformer.asset
+  artifactKey: Guid(14248ba97722c6d49a67b75a52d83e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Custom Textures/WaveFoam_Deformer.asset using Guid(14248ba97722c6d49a67b75a52d83e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b56a29cfa9016475af867111f1a6d65') in 0.013739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Holli/Textures/Custom Textures/WaveFoam_S.asset
+  artifactKey: Guid(a4eb1d1c3d2b29647bab08bc97ea76fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Custom Textures/WaveFoam_S.asset using Guid(a4eb1d1c3d2b29647bab08bc97ea76fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738543785d5829ab30711a4d5a59919c') in 0.012110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.368244 seconds.
+  path: Assets/Holli/Textures/Details/Fern_MaskMap.tif
+  artifactKey: Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Fern_MaskMap.tif using Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e18616725f1d76922bac89ad10c81c') in 0.022334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Textures/Details/GrassDry_MaskMap.tif
+  artifactKey: Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/GrassDry_MaskMap.tif using Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4f2ece4fbb07f5ff0d9f82b2d1caaf') in 0.013053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Holli/Textures/Details/Grass_A_MaskMap.tif
+  artifactKey: Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Grass_A_MaskMap.tif using Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfbc422a5a1996c0e20012c72085eb7') in 0.012464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Textures/Details/Heather_A_Normal.tif
+  artifactKey: Guid(b5680c218e8592f489953c2723e3aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Heather_A_Normal.tif using Guid(b5680c218e8592f489953c2723e3aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f9cbd8e2caa0f3f3173a450a433eab') in 0.012651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Textures/Details/Grass_A_Thickness.tif
+  artifactKey: Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Grass_A_Thickness.tif using Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410028a8f7cac003132f5fe2656a79fd') in 0.019916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Textures/Details/Heather_A_Thickness.tif
+  artifactKey: Guid(0942f310de78e664aaaca6d7d276cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Heather_A_Thickness.tif using Guid(0942f310de78e664aaaca6d7d276cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4d52691599b7919e64c5d8b4a6526') in 0.010238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Textures/Details/Grass_C_BaseColor.tif
+  artifactKey: Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Grass_C_BaseColor.tif using Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d84aeb09d9cbd736f71257222e86bb') in 0.011350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Holli/Textures/Details/Grass_A_BaseColor.tif
+  artifactKey: Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Grass_A_BaseColor.tif using Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84247b6d839b4926c2aed463fc15fd59') in 0.014664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Textures/Details/Fern_Thickness.tif
+  artifactKey: Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Textures/Details/Fern_Thickness.tif using Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26609173a1ee3dd1497c0a10d71acd8') in 0.011038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.829760 seconds.
+  path: Assets/Holli/Materials/ShaderGraphs/Subgraphs/MainLight.shadersubgraph
+  artifactKey: Guid(22848ae0b35f9cb4f830ade382bd4f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Materials/ShaderGraphs/Subgraphs/MainLight.shadersubgraph using Guid(22848ae0b35f9cb4f830ade382bd4f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d194d93c2eaec1405e40cea7b4b57f2') in 0.002616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Materials/ShaderGraphs/Subgraphs/Wind.shadersubgraph
+  artifactKey: Guid(43040687acbef31438764c0a962e143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Materials/ShaderGraphs/Subgraphs/Wind.shadersubgraph using Guid(43040687acbef31438764c0a962e143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b363f7cc5dd6bd1eafd964a4e7d2194') in 0.003395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,1060 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+J:/TurtleRescue
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54445
+Successfully changed project path to: J:/TurtleRescue
+J:/TurtleRescue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17024] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2598527461 [EditorId] 2598527461 [Version] 1048832 [Id] WindowsEditor(7,HOANHTUAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17024] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2598527461 [EditorId] 2598527461 [Version] 1048832 [Id] WindowsEditor(7,HOANHTUAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.50 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path J:/TurtleRescue/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T1000 8GB (ID=0x1ff0)
+    Vendor:   NVIDIA
+    VRAM:     8017 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006953 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2191 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.470 seconds
+Domain Reload Profiling: 2743ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2274ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.787 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (787ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 242 unused Assets / (13.1 MB). Loaded Objects now: 8452.
+Memory consumption went from 388.7 MB to 375.6 MB.
+Total: 8.226100 ms (FindLiveObjects: 0.673100 ms CreateObjectMapping: 0.269600 ms MarkObjects: 3.496500 ms  DeleteObjects: 3.786000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 267551.392190 seconds.
+  path: Assets/Resources/Shaders/waterMat.mat
+  artifactKey: Guid(56ecaf79e321ff14a8df1827b5ee238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Shaders/waterMat.mat using Guid(56ecaf79e321ff14a8df1827b5ee238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc47fa8c028a76647f93c4a572b6c40') in 0.448553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 208
+========================================================================
+Received Import Request.
+  Time since last request: 27.276668 seconds.
+  path: Assets/Holli/Models/Turtles/turtle.fbx
+  artifactKey: Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/turtle.fbx using Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45026978d429530858e9195a802fc4ad') in 0.083406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 52.884405 seconds.
+  path: Assets/Holli/Models/Turtles/turtle.fbx
+  artifactKey: Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/turtle.fbx using Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2460f28f6ca8faa167d286179a2d650') in 0.047629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 39.572616 seconds.
+  path: Assets/Holli/Models/Turtles/turtle.fbx
+  artifactKey: Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/turtle.fbx using Guid(6116a1d59b1c6c24f86904ee96a79808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be5e8ea2044e706f8fdfb4432cbfe56') in 0.069636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 12.287905 seconds.
+  path: Assets/Holli/Models/Turtles/Textures
+  artifactKey: Guid(975f96e672f7507429246e4d418495d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/Textures using Guid(975f96e672f7507429246e4d418495d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1757cfcd4cc8ba164eadfb29b4ae1692') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.585398 seconds.
+  path: Assets/Holli/Models/Turtles/Textures/10042_Sea_Turtle_V1_Diffuse.jpg
+  artifactKey: Guid(10825daa076ad8747b4f85ec2fbe49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/Textures/10042_Sea_Turtle_V1_Diffuse.jpg using Guid(10825daa076ad8747b4f85ec2fbe49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c76968c2d9de2fe559159c336f461e') in 0.025147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Models/Turtles/Textures/13101_spotturtle_diffuse.jpg
+  artifactKey: Guid(3fdbc756ffdd4de48a2e0cd635257df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/Textures/13101_spotturtle_diffuse.jpg using Guid(3fdbc756ffdd4de48a2e0cd635257df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec59cfb0e61acb0a3f5cbced46e4166') in 0.032418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Holli/Models/Turtles/Textures/13103_pearlturtle_diffuse.jpg
+  artifactKey: Guid(5aedc581a174eaf4c8623fa902c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Turtles/Textures/13103_pearlturtle_diffuse.jpg using Guid(5aedc581a174eaf4c8623fa902c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c31b10e4d892959155fcc27c50ae1a2') in 0.016251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.954265 seconds.
+  path: Assets/Holli/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8796d494930d9fe6930086b8d310b7c3') in 0.026004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Models/Hill03.fbx
+  artifactKey: Guid(cfa8a6e4dca8fef43b124d2d885bc157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Hill03.fbx using Guid(cfa8a6e4dca8fef43b124d2d885bc157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bdfa74c79eea9e37eec8d905f2bf54') in 0.175021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Holli/Models/RiverTerrain04.fbx
+  artifactKey: Guid(acd380a304c0d3641809562753687af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/RiverTerrain04.fbx using Guid(acd380a304c0d3641809562753687af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a0f4ad06e1a4f172c74c6b129b6203') in 0.152243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Holli/Models/Island.fbx
+  artifactKey: Guid(7280d579dfeaf0d4aa796d2e20789cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Island.fbx using Guid(7280d579dfeaf0d4aa796d2e20789cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae408beef5b6d6e419a6ffef654f0507') in 0.043391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Holli/Models/RiverTerrain02.fbx
+  artifactKey: Guid(1c02732377123d148b499b433733dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/RiverTerrain02.fbx using Guid(1c02732377123d148b499b433733dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bbd27c40d8fc36734b28c0f6e343a0') in 0.117918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Holli/Models/RiverTerrain03.fbx
+  artifactKey: Guid(1d00fb8c4ffd7b44cafd754f82ff4883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/RiverTerrain03.fbx using Guid(1d00fb8c4ffd7b44cafd754f82ff4883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bec5887eccca050ae9c2c1f8acad32') in 0.095468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.110898 seconds.
+  path: Assets/Holli/Models/Prefab/Models.prefab
+  artifactKey: Guid(bd8d9484ecd8c2641bb3be1cff49072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Prefab/Models.prefab using Guid(bd8d9484ecd8c2641bb3be1cff49072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa02c2c9d6096b58e7407b1d58a20c41') in 2.094382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32550
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 1940ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7806 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (13.0 MB). Loaded Objects now: 8654.
+Memory consumption went from 378.1 MB to 365.0 MB.
+Total: 13.238400 ms (FindLiveObjects: 0.929200 ms CreateObjectMapping: 0.314800 ms MarkObjects: 5.756800 ms  DeleteObjects: 6.236100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.184 seconds
+Domain Reload Profiling: 1623ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.68 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7805 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (13.0 MB). Loaded Objects now: 8670.
+Memory consumption went from 379.8 MB to 366.8 MB.
+Total: 6.069800 ms (FindLiveObjects: 0.554500 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.898700 ms  DeleteObjects: 2.410200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.158 seconds
+Domain Reload Profiling: 1595ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1159ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.83 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7805 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (13.0 MB). Loaded Objects now: 8686.
+Memory consumption went from 381.8 MB to 368.7 MB.
+Total: 7.588200 ms (FindLiveObjects: 0.736600 ms CreateObjectMapping: 0.705100 ms MarkObjects: 3.362800 ms  DeleteObjects: 2.782000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.225 seconds
+Domain Reload Profiling: 1659ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7805 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (13.0 MB). Loaded Objects now: 8702.
+Memory consumption went from 383.7 MB to 370.7 MB.
+Total: 8.563400 ms (FindLiveObjects: 0.657300 ms CreateObjectMapping: 0.239800 ms MarkObjects: 4.745500 ms  DeleteObjects: 2.919900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 889.489999 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment.fbx
+  artifactKey: Guid(3ca2c2ce56b9e44f598f5de419ce4e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment.fbx using Guid(3ca2c2ce56b9e44f598f5de419ce4e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b63020305befe8429cf7abeae55317') in 0.406340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 278
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TerrainSampleAssets/Models/GrassDry_C.asset
+  artifactKey: Guid(9a249c33299836d45ae597069d9324e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/GrassDry_C.asset using Guid(9a249c33299836d45ae597069d9324e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a359a53f5f499981cd64f45beb7cd2') in 0.017805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Models/Pool/RoofGlass02.fbx
+  artifactKey: Guid(a385802088a7deb4e9f7acf3e1028931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Pool/RoofGlass02.fbx using Guid(a385802088a7deb4e9f7acf3e1028931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66aac81225d5cb0f11cae8a0308dc7a') in 0.030915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainSampleAssets/Models/GrassDry_A.asset
+  artifactKey: Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/GrassDry_A.asset using Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff4822b1589dfe0382dc05b8151e71') in 0.012569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Aquarium/Art/Environment/Meshes/Cliff_03_Mesh.fbx
+  artifactKey: Guid(d643bc1985354c548b38c2c1ab937452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Environment/Meshes/Cliff_03_Mesh.fbx using Guid(d643bc1985354c548b38c2c1ab937452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325028da653c4bd1e728a96ea8eda7d9') in 0.214075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Cushions_01_Mesh.fbx
+  artifactKey: Guid(7f79686201c27a3468800e28723057db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Cushions_01_Mesh.fbx using Guid(7f79686201c27a3468800e28723057db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107f2341a61f580f0d92c6b18e7403b2') in 0.063860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Grass_B.asset
+  artifactKey: Guid(255522b0d4257624f93e110d4a6135ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Grass_B.asset using Guid(255522b0d4257624f93e110d4a6135ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6726621240b95fe5b326c15c323370d5') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Models/Pool/RoofGlass01.fbx
+  artifactKey: Guid(d21abe2ee96fd09418304a0cf18b3a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Pool/RoofGlass01.fbx using Guid(d21abe2ee96fd09418304a0cf18b3a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22001375f6e4873953112daf4221e6f') in 0.022237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Grass_D.asset
+  artifactKey: Guid(15afb6df1db838d409d503b01fb48944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Grass_D.asset using Guid(15afb6df1db838d409d503b01fb48944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05079ba20d430bb022631e2f9b1b8275') in 0.012165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Light.fbx
+  artifactKey: Guid(d9ad0f74d68824711bc800186cf63d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Light.fbx using Guid(d9ad0f74d68824711bc800186cf63d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4840d5c053fd86ce9916d0be45596b4') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Models/Vegetation/SpeedTree/Conifer/Conifer.st
+  artifactKey: Guid(c5ef266019656cc448be910b6e6ba9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/SpeedTree/Conifer/Conifer.st using Guid(c5ef266019656cc448be910b6e6ba9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d142cb41d0905c27909d13b5531476') in 0.043244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_13.FBX
+  artifactKey: Guid(3cf4d829ca48b6e438a8eb6e6d992549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_13.FBX using Guid(3cf4d829ca48b6e438a8eb6e6d992549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859cfd95a0b259ef94d3316635687965') in 0.053018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_02_Mesh.fbx
+  artifactKey: Guid(8ec47b60f70329b47828fb81aed09e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_02_Mesh.fbx using Guid(8ec47b60f70329b47828fb81aed09e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d0f4c0b43ce1109eb8fa67e0211351') in 0.114493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Teleporter_Platform_01_Mesh.fbx
+  artifactKey: Guid(ac79ebef7f299254e9b2b828bf10ff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Teleporter_Platform_01_Mesh.fbx using Guid(ac79ebef7f299254e9b2b828bf10ff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1287dfba36bb8b23d05bb729005788') in 0.092852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Models/Pool/Wall.fbx
+  artifactKey: Guid(b0d98f6eb5e52ea4a84abf0f3993d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Pool/Wall.fbx using Guid(b0d98f6eb5e52ea4a84abf0f3993d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249553f2cc932d22d6eec3deaf265c8') in 0.056438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_07_Mesh.fbx
+  artifactKey: Guid(39a96358e78d35249967add3a1856148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_07_Mesh.fbx using Guid(39a96358e78d35249967add3a1856148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf0bd270bf9650ae0d327332fb7ee8a') in 0.143968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 291
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_04_Mesh.fbx
+  artifactKey: Guid(9812f7e3f97d00d4eaf1795bb62b683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_04_Mesh.fbx using Guid(9812f7e3f97d00d4eaf1795bb62b683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327f9c04f57303fb0fa619dff1bde397') in 0.088756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_3_Mesh.fbx
+  artifactKey: Guid(529999cbc059dfd4ca086100890abec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_3_Mesh.fbx using Guid(529999cbc059dfd4ca086100890abec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd5801fc37ac9ee9a8131a492c3462') in 0.081161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_17.fbx
+  artifactKey: Guid(041dd4e2882e9a946b105ccc66aa8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_17.fbx using Guid(041dd4e2882e9a946b105ccc66aa8f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ab976830dd3b95933a331e01f220be') in 0.020090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_Plate_01_Mesh.fbx
+  artifactKey: Guid(95a222815cebf7948af03a839517ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_Plate_01_Mesh.fbx using Guid(95a222815cebf7948af03a839517ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ae9419888d84f25ab293a5a1a281b') in 0.065557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_05_Mesh.fbx
+  artifactKey: Guid(0df7be439723ea14a86a379239d54107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_05_Mesh.fbx using Guid(0df7be439723ea14a86a379239d54107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654f11df0ca42479ad37f2f8db31462e') in 0.120306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Heather_A.asset
+  artifactKey: Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Heather_A.asset using Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374f4f674f3d75c2a5790dac6482f891') in 0.009633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Heather_B.asset
+  artifactKey: Guid(fa4ffd32709146c448c403bfd045f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Heather_B.asset using Guid(fa4ffd32709146c448c403bfd045f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d988f72094dff76495dc47ce372388') in 0.011483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_05_Mesh.fbx
+  artifactKey: Guid(23d4b41c2c4e8d747bc2cd356c0081f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_05_Mesh.fbx using Guid(23d4b41c2c4e8d747bc2cd356c0081f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241030085857112c0f9d5362845472e8') in 0.057016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_4_Mesh.fbx
+  artifactKey: Guid(29ab906ba0a25d94f82c5eceb8309f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_4_Mesh.fbx using Guid(29ab906ba0a25d94f82c5eceb8309f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5038c763af546bba8bb6ab90b4b8342b') in 0.045664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Oasis/Models/Props/oasisProps.fbx
+  artifactKey: Guid(abafd1a6bb5a5c94da7f83dff9574a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Oasis/Models/Props/oasisProps.fbx using Guid(abafd1a6bb5a5c94da7f83dff9574a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59d20103ba1b78ad4df98ff1a1642ee') in 0.633534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_Cup_02_Mesh.fbx
+  artifactKey: Guid(61f5807527b40b844821847dce70d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_Cup_02_Mesh.fbx using Guid(61f5807527b40b844821847dce70d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4624518f0a3025ee6001d473b8434e') in 0.032136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_08.FBX
+  artifactKey: Guid(edc535f7428d5eb4abedf747ae5bc0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_08.FBX using Guid(edc535f7428d5eb4abedf747ae5bc0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d1e7d5021c4948e5bd0a04b08e6acf') in 0.065063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_6_Mesh.fbx
+  artifactKey: Guid(e818ed1d47e04844dad5447fbceb5610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Vegetation/Meshes/Palm_6_Mesh.fbx using Guid(e818ed1d47e04844dad5447fbceb5610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb051830c5651aa4cb3bc2228d04b817') in 0.033864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Holli/Aquarium/Art/Vegetation/Meshes/Grass_3_Mesh.fbx
+  artifactKey: Guid(1954be4c7be684b4f98b53b0549569b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Vegetation/Meshes/Grass_3_Mesh.fbx using Guid(1954be4c7be684b4f98b53b0549569b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae103e5c98b05f55047448df080a15a') in 0.050112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Thick_01_Mesh.fbx
+  artifactKey: Guid(a7a579a7e485bfd4396cdeb971068de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Thick_01_Mesh.fbx using Guid(a7a579a7e485bfd4396cdeb971068de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b4fc6f002da1ca60997c62aac922d2') in 0.079389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_09.FBX
+  artifactKey: Guid(ec0e63f4dbf5a2d4bb4efde99345ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_09.FBX using Guid(ec0e63f4dbf5a2d4bb4efde99345ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a991492edf26d26ce1da52b2d03d14') in 0.059483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx
+  artifactKey: Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx using Guid(e8f07670fb0274e35a65e6e98594a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2fb0157db0d67a409ccf9c817486e') in 0.050309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Environment/Meshes/Terrain_01_ShadowCage_Mesh.fbx
+  artifactKey: Guid(b6b2cda2e1f4334419aae4c2fe20bdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Environment/Meshes/Terrain_01_ShadowCage_Mesh.fbx using Guid(b6b2cda2e1f4334419aae4c2fe20bdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe20d0a59a25bed5b89927b662d3b079') in 0.018377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_01_Mesh.fbx
+  artifactKey: Guid(0495c9e2322409d40a5b762a874f27ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_01_Mesh.fbx using Guid(0495c9e2322409d40a5b762a874f27ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d76c4a9212e75c7bac4ac6c0468d7c4') in 0.140547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 273
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Models/Rocks/Moss/Meshes/Rock_08_Moss_02.FBX
+  artifactKey: Guid(33e604695d177e94cb065bd8d4d12920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Moss/Meshes/Rock_08_Moss_02.FBX using Guid(33e604695d177e94cb065bd8d4d12920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affc65990bf51426d20b912075feb625') in 0.025034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_CoffeeGrinder_01_Mesh.fbx
+  artifactKey: Guid(4c1acba7788f23c43a7ee965c2f8360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_CoffeeGrinder_01_Mesh.fbx using Guid(4c1acba7788f23c43a7ee965c2f8360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b0413b3872aa7d1f238888542f8bc1') in 0.034274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Ground_01_Mesh.fbx
+  artifactKey: Guid(eb6dcc8243abfc643bac1ff094ac2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Ground_01_Mesh.fbx using Guid(eb6dcc8243abfc643bac1ff094ac2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81f55cc4aca1c33e883660d0fab3c21') in 0.059655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_07.FBX
+  artifactKey: Guid(49d7bdebd44965543ace5403496a463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_07.FBX using Guid(49d7bdebd44965543ace5403496a463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfb0da2b9bae83efb436ca08b6e37a8') in 0.056127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainSampleAssets/Models/GrassDry_B.asset
+  artifactKey: Guid(6e5fc1a573bc5ce4e851d0ff2046daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/GrassDry_B.asset using Guid(6e5fc1a573bc5ce4e851d0ff2046daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5d49eb6fed09a2769f1e5fee94c734') in 0.010516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_08_Mesh.fbx
+  artifactKey: Guid(00b85c609f028494c9649dae1c2242f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_08_Mesh.fbx using Guid(00b85c609f028494c9649dae1c2242f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66250a4837be8a85fa0d622f467d69e2') in 0.074128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Holli/Models/Pool/Ground.fbx
+  artifactKey: Guid(cff6ae35fce70974d9e6fb554f4f7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Pool/Ground.fbx using Guid(cff6ae35fce70974d9e6fb554f4f7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded8eb79bd828858494e7294fa2d97ab') in 0.082008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Models/Rocks/Moss/Meshes/Rock_07_Moss_02.FBX
+  artifactKey: Guid(378c2e1f08d42924ca0a1012ac48ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Moss/Meshes/Rock_07_Moss_02.FBX using Guid(378c2e1f08d42924ca0a1012ac48ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83be183b345866bbdd138a00b49f9d12') in 0.027399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_16.fbx
+  artifactKey: Guid(3c3a12c23c73aa74f9a820a0fd2605b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_16.fbx using Guid(3c3a12c23c73aa74f9a820a0fd2605b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e8ed2d2d4cd631cc3b97d314920b73') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Models/Pool/Shower Cascade.fbx
+  artifactKey: Guid(74c970dccee7a2a4b8b39be5a5cfc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Pool/Shower Cascade.fbx using Guid(74c970dccee7a2a4b8b39be5a5cfc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae1ed2956c36d8b17591c8bad1ea642') in 0.071365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_11.FBX
+  artifactKey: Guid(5344587caad55de45bef7ffae87cc5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_11.FBX using Guid(5344587caad55de45bef7ffae87cc5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d05a8ce2f9f2e090c7f2696f8e8156') in 0.053885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_14.FBX
+  artifactKey: Guid(8e96d9e5112a7954185766fbb8784b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_14.FBX using Guid(8e96d9e5112a7954185766fbb8784b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a88a088f861df8645353916d37636a') in 0.066094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_05.FBX
+  artifactKey: Guid(9a7a8f2fd73bfe647a46b5fdbff1b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_05.FBX using Guid(9a7a8f2fd73bfe647a46b5fdbff1b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e15fe28150f68c28568ea1fd7438872') in 0.056483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_10_Mesh.fbx
+  artifactKey: Guid(0b3a85c069755b646aef360b38f3df39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_10_Mesh.fbx using Guid(0b3a85c069755b646aef360b38f3df39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861cac64b4ab811cb31632a501662c1') in 0.044481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Holli/Prefabs/aquaCol.fbx
+  artifactKey: Guid(2f6e907990d3c5043b8fad6d157491a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Prefabs/aquaCol.fbx using Guid(2f6e907990d3c5043b8fad6d157491a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff6ec49e61410fe2a5d1a01364501e8') in 0.027529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Holli/Models/Rocks/Meshes/Rock_10.FBX
+  artifactKey: Guid(43385f67bc0d7ee45b9076d6bbcfc872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Rocks/Meshes/Rock_10.FBX using Guid(43385f67bc0d7ee45b9076d6bbcfc872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19535b5f60f76f925335192defcb71c') in 0.049639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_03_Mesh.fbx
+  artifactKey: Guid(8bf8b7f1c5777e94faf95b283c9f4000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_03_Mesh.fbx using Guid(8bf8b7f1c5777e94faf95b283c9f4000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139b0a07b09979808e23efdbbbafa654') in 0.081428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Big_01_Mesh.fbx
+  artifactKey: Guid(d85636849d4d6e44e87b3e24cccaa1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Carpets_Big_01_Mesh.fbx using Guid(d85636849d4d6e44e87b3e24cccaa1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c8e9fa1d3d4cce795fea58fad92e81') in 0.061366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_09_Mesh.fbx
+  artifactKey: Guid(a69bcb39493ce014c94aa3c02c1d29ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Tent_09_Mesh.fbx using Guid(a69bcb39493ce014c94aa3c02c1d29ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736c61c8255416c779001006ea7295d0') in 0.204327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 380
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Holli/Aquarium/Art/Architecture/Meshes/Platform_01_Mesh.fbx
+  artifactKey: Guid(74d3cf9ddd66fea4b8682b048436ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Architecture/Meshes/Platform_01_Mesh.fbx using Guid(74d3cf9ddd66fea4b8682b048436ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c799094b318abd16d3b7a2d330da9f') in 0.125854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Grass_C.asset
+  artifactKey: Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Grass_C.asset using Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e15c7b3dffedd5ab442ec0da078c5e') in 0.015819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_01_Mesh.fbx
+  artifactKey: Guid(0eafbb6dfa210ad42867d8e1cf73edb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Environment/Meshes/Rock_01_Mesh.fbx using Guid(0eafbb6dfa210ad42867d8e1cf73edb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b913125ac4a7132e076562fdef0f2cf') in 0.072270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/GrassDry_A.asset
+  artifactKey: Guid(09a1659fd760b4145bd8d18504bd1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/GrassDry_A.asset using Guid(09a1659fd760b4145bd8d18504bd1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ec06c30e895539884c27cbafa86f2f') in 0.013306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_CoffeePot_01_Mesh.fbx
+  artifactKey: Guid(cf7a7db14a4000445bbb534fbd85f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Aquarium/Art/Props/Meshes/Teaset_CoffeePot_01_Mesh.fbx using Guid(cf7a7db14a4000445bbb534fbd85f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b063f8e9db0917cdae46e07049e89') in 0.038403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.560040 seconds.
+  path: Assets/Holli/Models/Vegetation/Details/Models/Bush_B.asset
+  artifactKey: Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Holli/Models/Vegetation/Details/Models/Bush_B.asset using Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfc0a4941089feda1447986b93ad922') in 0.012744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\Aquarium\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|j:\\aquarium\\assets\\scripts\\uiaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|j:\\aquarium\\assets\\scripts\\fogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|J:\\Aquarium\\assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|J:\\Aquarium\\assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|J:\\Aquarium\\assets\\scripts\\skysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B01B48F-2084-14A0-B51E-B8B7954BFB63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fogController.cs",
+              "DocumentMoniker": "J:\\Aquarium\\Assets\\Scripts\\fogController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\fogController.cs",
+              "ToolTip": "J:\\Aquarium\\Assets\\Scripts\\fogController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\fogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:07:28.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIaction.cs",
+              "DocumentMoniker": "J:\\Aquarium\\Assets\\Scripts\\UIaction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIaction.cs",
+              "ToolTip": "J:\\Aquarium\\Assets\\Scripts\\UIaction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIaction.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T04:08:22.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlockManager.cs",
+              "DocumentMoniker": "J:\\Aquarium\\Assets\\Scripts\\FlockManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FlockManager.cs",
+              "ToolTip": "J:\\Aquarium\\Assets\\Scripts\\FlockManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FlockManager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T04:00:37.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Flock.cs",
+              "DocumentMoniker": "J:\\Aquarium\\Assets\\Scripts\\Flock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Flock.cs",
+              "ToolTip": "J:\\Aquarium\\Assets\\Scripts\\Flock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Flock.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T04:00:29.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "skySetting.cs",
+              "DocumentMoniker": "J:\\Aquarium\\Assets\\Scripts\\skySetting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skySetting.cs",
+              "ToolTip": "J:\\Aquarium\\Assets\\Scripts\\skySetting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skySetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T03:59:53.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
